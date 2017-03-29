@@ -1,0 +1,15 @@
+{# templates/comment.html #}
+<li class="comment col-xs-12 col-sm-6 col-lg-4">
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      {{ comment.timestamp.strftime('%b %d, %Y %I:%M%p').lower() }}
+      <a
+        class="btn btn-danger btn-xs archive-comment pull-right"
+        data-note="{{ comment.id }}"
+        href="{{ url_for('archive_comment', pk=comment.id) }}">×</a>
+    </div>
+    <div class="panel-body">
+      {{ comment.html() }}
+    </div>
+  </div>
+</li>
