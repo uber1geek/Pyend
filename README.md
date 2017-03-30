@@ -1,5 +1,5 @@
 # Pyend
-Pyend is a simple commenting system build on Python Flask. 
+Pyend is a simple commenting system built on Python Flask. 
 
 
 I decided to name this WIP project "Pyend" which is a Kashmiri word for a shop front and that is where most typical and sterotypical discussions take place.
